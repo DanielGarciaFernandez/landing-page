@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    color: #fff;
+    background-color: #1F2937 ;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .menu{
+    width: 3000px;
+    justify-content: space-around;
+    display: flex;
+  }
+  .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .logo-h{
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: flex-start;
+  }
+  .about{
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .login {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  .signup{
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  
+  
+  
+  
+.header-container {
+    background-color: #1F2937;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  justify-content: flex-start;
+  margin-left: 75px;
+  width: 450px;
+}
+.title {
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+.info {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #E5E7EB;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+}
+.right {
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+.main-container {
+  color: #000000;
+  background-color: #D6E9FE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+.main {
+  display: flex;
+  height: 400px;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title-2 {
+  font-size: 36px;
+  color: #1F2937;
+  margin: 35px;
+  justify-content: flex-start;
+}
+.squares{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.square{
+  height: 150px;
+  width: 150px;
+  background-color: #ffffff;
+  border: #3882F6 3px solid;
+  margin: 10px;
+  border-radius: 20px;
+}
